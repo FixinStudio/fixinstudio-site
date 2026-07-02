@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fixin Studio</title>
-  <meta name="description" content="Fixin Studio is an independent software studio. We build thoughtfully crafted software that solves real problems.">
+  <meta name="description" content="An independent software studio. We build practical, polished tools for people who make things.">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -21,34 +21,79 @@
   <main>
     <section class="hero">
       <h1>Build useful things.<br>Build them well<span class="dot">.</span></h1>
-      <p class="tagline">An independent software studio.</p>
+      <p class="tagline">An independent software studio making practical tools for people who build things.</p>
       <hr class="rule">
-      <p class="lead">
-        We build thoughtfully crafted software that solves real problems &mdash;
-        practical, polished, and respectful of your time. We don't chase trends.
-        We build tools people keep.
-      </p>
+      <p class="lead">We don't chase trends. We build software people keep &mdash; small, sharp tools that solve real problems and earn their place on your device.</p>
     </section>
 
-    <div class="cards">
-      <a class="card-link" href="/studio/">
-        <span class="k">The Studio</span>
-        <span class="d">How we think and what we build.</span>
-      </a>
-      <a class="card-link" href="/batchsmith/">
-        <span class="k">BatchSmith</span>
-        <span class="d">Our first product &mdash; coming soon.</span>
-      </a>
+    <section class="products-section">
+      <p class="section-label">Products</p>
+      <div class="product-list">
+
+        <a class="product-row" href="/batchsmith/">
+          <div class="product-icon">
+            <!-- Replace with: <img src="/img/batchsmith-icon.png" alt=""> once you have the icon -->
+            B
+          </div>
+          <div class="product-info">
+            <div class="product-name">BatchSmith</div>
+            <div class="product-desc">Precision curing and recipe management for home charcuterie.</div>
+            <div class="product-tags">
+              <span class="tag">iOS</span>
+              <span class="tag tag--accent">In development</span>
+            </div>
+          </div>
+          <span class="product-chevron">›</span>
+        </a>
+
+        <div class="product-row product-row--ghost" aria-hidden="true">
+          <div class="product-icon product-icon--ghost"></div>
+          <div class="product-info">
+            <div class="product-name">More coming</div>
+            <div class="product-desc">More maker tools in the works.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="philosophy">
+      <p>Software should feel like a favorite tool &mdash; it does its job so cleanly you forget it&rsquo;s there and just get on with your work. <a href="/studio/">How we build &rarr;</a></p>
+    </div>
+
+    <div class="founder">
+      <div class="founder-avatar">
+        <!-- Replace with: <img src="/img/chris.jpg" alt="Chris"> once you have a photo -->
+      </div>
+      <div>
+        <div class="founder-name">Made by Chris</div>
+        <p class="founder-bio">Colorado. Sales manager by day, builder by night. Home automation nerd, charcuterie enthusiast, and the reason BatchSmith exists.</p>
+      </div>
     </div>
   </main>
 
   <footer class="site-footer">
     <div class="foot">
-      <span>&copy; 2026 Fixin Studio LLC</span>
-      <span class="foot-links">
-        <a href="/privacy/">Privacy</a>
-        <a href="mailto:hello@fixinstudio.com">Contact</a>
-      </span>
+      <div class="foot-brand">
+        <a class="wordmark" href="/">Fixin Studio<span class="dot">.</span></a>
+        <p class="foot-copy">&copy; 2026 Fixin Studio LLC &mdash; Colorado</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="/batchsmith/">BatchSmith</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/studio/">Studio</a></li>
+            <li><a href="/privacy/">Privacy</a></li>
+            <li><a href="mailto:hello@fixinstudio.com">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
 </body>
