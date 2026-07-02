@@ -29,12 +29,13 @@
 
     <h2>The short version</h2>
     <ul>
+      <li>BatchSmith makes no network connections except through Apple&rsquo;s own frameworks: iCloud (CloudKit) for syncing your data to your private iCloud, and the App Store (StoreKit) for purchases. It never contacts a server operated by us or any third party.</li>
       <li>We do not have a server. BatchSmith has no backend that receives your data.</li>
       <li>We do not collect, see, sell, or share your personal information.</li>
       <li>Your recipes, batches, notes, and weigh-ins are stored on your device.</li>
       <li>If you enable iCloud, that data syncs through your own private iCloud account, which we cannot access.</li>
       <li>Purchases are handled by Apple. We never see your name, email, or payment details.</li>
-      <li>There is no analytics, no advertising, no tracking, and no third-party data collection.</li>
+      <li>There is no analytics, no advertising, no tracking, and no third-party network calls or SDKs.</li>
     </ul>
 
     <h2>What is stored, and where</h2>
@@ -56,9 +57,10 @@
       <li>We do not use analytics or usage tracking of any kind.</li>
       <li>We do not use crash-reporting services.</li>
       <li>We do not show advertising.</li>
-      <li>We do not include third-party trackers, SDKs, or data brokers.</li>
+      <li>We do not include third-party trackers, SDKs, or data brokers &mdash; the app bundles no third-party networking libraries at all.</li>
       <li>We do not require an account, login, email address, or sign-up.</li>
       <li>We do not access your contacts, photos, location, microphone, or camera.</li>
+      <li>The app makes no network calls of its own. The only network activity is Apple&rsquo;s iCloud sync and App Store purchase handling, performed by Apple&rsquo;s frameworks.</li>
     </ul>
 
     <h2>iCloud</h2>
@@ -68,7 +70,7 @@
     <p>BatchSmith&rsquo;s App Store privacy label reflects this policy. For most categories, the answer is <b>Data Not Collected</b>. Purchase history is handled entirely by Apple; any declaration under that category would be marked not linked to identity and not used for tracking. We make no claim to your data because we genuinely have none of it.</p>
 
     <h2>Food-safety notice</h2>
-    <p>BatchSmith is an informational calculator and notebook, not professional food-safety advice. Meat curing &mdash; especially uncooked, dry-cured products &mdash; carries real risk, including botulism, which can be fatal. You are responsible for verifying that your cure, temperatures, and process are safe, and for following USDA/FSIS guidance and your cure manufacturer&rsquo;s instructions.</p>
+    <p>BatchSmith is an informational calculator and notebook, not professional food-safety advice. Meat curing &mdash; especially uncooked, dry-cured products &mdash; carries real risk, including botulism, which can be fatal. You are responsible for verifying that your cure, temperatures, and process are safe, and for following USDA/FSIS guidance and your cure manufacturer&rsquo;s instructions. This notice is part of how we describe the app; it does not change the fact that we do not collect your data.</p>
 
     <h2>Children</h2>
     <p>BatchSmith is a tool for curing and smoking meat and is not directed at children under 13. We do not knowingly collect information from children.</p>
