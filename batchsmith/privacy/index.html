@@ -25,30 +25,56 @@
     <p class="lead">BatchSmith stores your data on your device. We have no server, no analytics, and no way to see your recipes, batches, or notes &mdash; even if we wanted to.</p>
     <hr class="rule">
 
-    <p><em>Last updated: July 2, 2026. Applies to BatchSmith for iOS, published by Fixin Studio LLC.</em></p>
+    <p><em>Effective date: July 2, 2026. Applies to BatchSmith for iOS, published by Fixin Studio LLC.</em></p>
 
-    <h2>What we collect</h2>
-    <p>Nothing. BatchSmith does not collect, transmit, or store any personal data on servers we control. There is no Fixin Studio backend. There are no analytics. There is no crash reporting. Your data stays with you.</p>
+    <h2>The short version</h2>
+    <ul>
+      <li>We do not have a server. BatchSmith has no backend that receives your data.</li>
+      <li>We do not collect, see, sell, or share your personal information.</li>
+      <li>Your recipes, batches, notes, and weigh-ins are stored on your device.</li>
+      <li>If you enable iCloud, that data syncs through your own private iCloud account, which we cannot access.</li>
+      <li>Purchases are handled by Apple. We never see your name, email, or payment details.</li>
+      <li>There is no analytics, no advertising, no tracking, and no third-party data collection.</li>
+    </ul>
 
-    <h2>Your recipes and batches</h2>
-    <p>Everything you enter in BatchSmith &mdash; recipes, batches, cure logs, notes, and weight records &mdash; is stored locally on your device and, if you have iCloud enabled, synced through your personal iCloud account via CloudKit private database.</p>
-    <p>CloudKit private database means your data is encrypted by Apple and stored in your own iCloud account. Fixin Studio has no access to it, cannot read it, and receives no copy of it. If you delete the app, your data can be deleted from iCloud through your device&rsquo;s iCloud settings.</p>
+    <h2>What is stored, and where</h2>
+    <p><b>On your device.</b> Everything you create in BatchSmith &mdash; cure calculations, batches, flavor presets, notes, weigh-ins, and reminders &mdash; is stored locally on your device. It never leaves your device except through the iCloud sync you control (below). We do not receive it.</p>
+
+    <p><b>In your private iCloud (only if you use iCloud).</b> If you are signed into iCloud, BatchSmith uses Apple&rsquo;s CloudKit to sync your batches across your own Apple devices and to protect against data loss. This data lives in your personal, private iCloud database. It is encrypted and controlled by Apple under your Apple ID. We have no access to it and cannot read, retrieve, or share it. A small, non-personal flag recording whether the free trial batch has been used may also sync through iCloud so the app behaves consistently across your devices; it contains no personal information. If you are not signed into iCloud, BatchSmith works fully on-device with no sync.</p>
+
+    <p><b>Local backups.</b> BatchSmith keeps backup snapshots of your data in a file on your device so it can restore your batches if needed. These snapshots never leave your device.</p>
 
     <h2>In-app purchases</h2>
-    <p>BatchSmith uses Apple&rsquo;s StoreKit for in-app purchases, processed entirely on your device. We never see your payment information, Apple ID, name, or email address. Purchase verification happens cryptographically on-device &mdash; no transaction data is sent to any server we operate.</p>
-    <p>Apple&rsquo;s handling of your payment is governed by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple&rsquo;s Privacy Policy</a>.</p>
+    <p>BatchSmith offers a one-time &ldquo;BatchSmith Pro&rdquo; purchase. Purchases are processed entirely by Apple through the App Store. We never receive your credit card number, billing address, name, or email. To unlock Pro features, BatchSmith verifies an anonymous purchase receipt with Apple on your device &mdash; this confirms a purchase was made without identifying you to us.</p>
+    <p>For questions about the payment itself, Apple&rsquo;s App Store handles billing and refunds. See <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple&rsquo;s Privacy Policy</a> for how Apple processes your purchase.</p>
+
+    <h2>Notifications</h2>
+    <p>BatchSmith can send flip reminders and ready-date alerts. These notifications are scheduled locally on your device using iOS&rsquo;s notification system &mdash; they are not sent through any server we operate.</p>
+
+    <h2>What we don&rsquo;t do</h2>
+    <ul>
+      <li>We do not use analytics or usage tracking of any kind.</li>
+      <li>We do not use crash-reporting services.</li>
+      <li>We do not show advertising.</li>
+      <li>We do not include third-party trackers, SDKs, or data brokers.</li>
+      <li>We do not require an account, login, email address, or sign-up.</li>
+      <li>We do not access your contacts, photos, location, microphone, or camera.</li>
+    </ul>
 
     <h2>iCloud</h2>
     <p>If you use iCloud sync, your data is governed by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple&rsquo;s Privacy Policy</a>. You can disable iCloud sync for BatchSmith at any time in Settings &rarr; [Your Name] &rarr; iCloud.</p>
 
     <h2>App Store nutrition label</h2>
-    <p>BatchSmith&rsquo;s App Store privacy label reflects this policy: <b>Data Not Collected</b>. We make no claim to your data because we genuinely have none of it.</p>
+    <p>BatchSmith&rsquo;s App Store privacy label reflects this policy. For most categories, the answer is <b>Data Not Collected</b>. Purchase history is handled entirely by Apple; any declaration under that category would be marked not linked to identity and not used for tracking. We make no claim to your data because we genuinely have none of it.</p>
+
+    <h2>Food-safety notice</h2>
+    <p>BatchSmith is an informational calculator and notebook, not professional food-safety advice. Meat curing &mdash; especially uncooked, dry-cured products &mdash; carries real risk, including botulism, which can be fatal. You are responsible for verifying that your cure, temperatures, and process are safe, and for following USDA/FSIS guidance and your cure manufacturer&rsquo;s instructions.</p>
 
     <h2>Children</h2>
-    <p>BatchSmith is not directed at children under 13 and does not knowingly collect information from them.</p>
+    <p>BatchSmith is a tool for curing and smoking meat and is not directed at children under 13. We do not knowingly collect information from children.</p>
 
     <h2>Changes</h2>
-    <p>If this policy changes, we&rsquo;ll update the date above and note what changed. Questions? <a href="mailto:hello@fixinstudio.com">hello@fixinstudio.com</a>.</p>
+    <p>If this policy changes, we&rsquo;ll update the effective date above and post the revised version at this URL. Because BatchSmith does not collect your contact information, we cannot notify you directly. Questions? <a href="mailto:hello@fixinstudio.com">hello@fixinstudio.com</a>.</p>
   </main>
 
   <footer class="site-footer">
