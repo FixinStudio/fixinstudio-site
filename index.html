@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fixin Studio</title>
+  <meta name="description" content="Fixin Studio is an independent software studio. We build thoughtfully crafted software that solves real problems.">
+  <style>
+    :root { --ink:#1a1a1a; --muted:#6b6b6b; --line:#e6e6e3; --bg:#faf9f6; --accent:#b5502a; }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased; line-height: 1.5;
+      display: flex; flex-direction: column; min-height: 100%;
+    }
+    main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 2rem; }
+    .card { max-width: 40rem; }
+    .brand { font-size: clamp(2.2rem, 6vw, 3.4rem); font-weight: 700; letter-spacing: -0.02em; margin: 0 0 0.25rem; }
+    .brand .dot { color: var(--accent); }
+    .tagline { font-size: 1.15rem; color: var(--ink); font-weight: 500; margin: 0 0 1.5rem; }
+    p { color: var(--muted); font-size: 1.05rem; max-width: 34rem; }
+    .rule { width: 3rem; height: 3px; background: var(--accent); border: 0; margin: 1.75rem 0; }
+    .soon { display: inline-block; margin-top: 0.5rem; font-size: 0.95rem; color: var(--ink);
+      border: 1px solid var(--line); background:#fff; padding: 0.5rem 0.9rem; border-radius: 999px; }
+    .soon b { color: var(--accent); }
+    footer { border-top: 1px solid var(--line); padding: 1.25rem 2rem; color: var(--muted); font-size: 0.9rem;
+      display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; justify-content: space-between; }
+    footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+    footer a:hover { color: var(--ink); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1 class="brand">Fixin Studio<span class="dot">.</span></h1>
+      <p class="tagline">Build useful things. Build them well.</p>
+      <hr class="rule">
+      <p>
+        Fixin Studio is an independent software studio. We build thoughtfully
+        crafted software that solves real problems &mdash; practical, polished,
+        and respectful of your time. We don't chase trends. We build tools people keep.
+      </p>
+      <span class="soon"><b>BatchSmith</b> &mdash; coming soon</span>
+    </div>
+  </main>
+  <footer>
+    <span>&copy; 2026 Fixin Studio LLC</span>
+    <span><a href="mailto:hello@fixinstudio.com">hello@fixinstudio.com</a></span>
+  </footer>
+</body>
+</html>
