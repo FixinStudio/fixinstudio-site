@@ -207,6 +207,15 @@ main p a { font-weight: 500; }
 }
 .pill b { color: var(--accent); }
 
+/* ── App icon (product pages) ───────────── */
+.app-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
 /* ── Studio label (product pages) ───────── */
 .studio-label {
   font-size: 0.8rem;
