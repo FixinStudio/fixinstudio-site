@@ -5,12 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fixin Studio</title>
   <meta name="description" content="An independent software studio. We build practical, polished tools for people who make things.">
+  <meta property="og:title" content="Fixin Studio">
+  <meta property="og:description" content="An independent software studio. We build practical, polished tools for people who make things.">
+  <meta property="og:image" content="https://fixinstudio.com/img/og.png">
+  <meta property="og:url" content="https://fixinstudio.com/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f7f2e8">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="page-wide">
   <header class="site-header">
     <nav class="nav">
-      <a class="wordmark" href="/">Fixin Studio<span class="dot">.</span></a>
+      <a class="wordmark" href="/"><img class="nav-mark" src="/img/mark-64.png" alt="">Fixin Studio<span class="dot">.</span></a>
       <div class="nav-links">
         <a href="/studio/">Studio</a>
         <a href="/batchsmith/">BatchSmith</a>
@@ -19,41 +30,33 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero measure">
+      <p class="eyebrow">Independent software studio &middot; Colorado</p>
       <h1>Build useful things.<br>Build them well<span class="dot">.</span></h1>
-      <p class="tagline">An independent software studio making practical tools for people who build things.</p>
+      <p class="lead">We don&rsquo;t chase trends. We build software people keep &mdash; small, sharp tools that solve real problems and earn their place on your device.</p>
       <hr class="rule">
-      <p class="lead">We don't chase trends. We build software people keep &mdash; small, sharp tools that solve real problems and earn their place on your device.</p>
     </section>
 
     <section class="products-section">
       <p class="section-label">Products</p>
-      <div class="product-list">
 
-        <a class="product-row" href="/batchsmith/">
-          <div class="product-icon">
-            <img src="/img/batchsmith-icon.png" alt="BatchSmith">
-          </div>
-          <div class="product-info">
-            <div class="product-name">BatchSmith</div>
-            <div class="product-desc">Precision curing and recipe management for home charcuterie.</div>
-            <div class="product-tags">
-              <span class="tag">iOS</span>
-              <span class="tag tag--accent">In development</span>
-            </div>
-          </div>
-          <span class="product-chevron">›</span>
-        </a>
-
-        <div class="product-row product-row--ghost" aria-hidden="true">
-          <div class="product-icon product-icon--ghost"></div>
-          <div class="product-info">
-            <div class="product-name">More coming</div>
-            <div class="product-desc">More maker tools in the works.</div>
+      <a class="feature-card" href="/batchsmith/">
+        <div class="feature-art">
+          <img src="/img/batchsmith-icon-320.png" alt="BatchSmith app icon" width="150" height="150">
+        </div>
+        <div class="feature-body">
+          <p class="feature-name">BatchSmith</p>
+          <p class="feature-tagline">Cure with confidence.</p>
+          <p class="feature-desc">Precision curing calculations and recipe management for home charcuterie. Dial in your cure by weight, track every batch, and come back to exactly what worked.</p>
+          <div class="feature-meta">
+            <span class="tag">iOS</span>
+            <span class="tag tag--accent">In development</span>
+            <span class="feature-cta">See BatchSmith &rarr;</span>
           </div>
         </div>
+      </a>
 
-      </div>
+      <p class="workshop-note">More maker tools are in the workshop.</p>
     </section>
 
     <div class="philosophy">
@@ -61,9 +64,7 @@
     </div>
 
     <div class="founder">
-      <div class="founder-avatar">
-        <!-- Replace with: <img src="/img/chris.jpg" alt="Chris"> once you have a photo -->
-      </div>
+      <div class="founder-avatar" aria-hidden="true">C</div>
       <div>
         <div class="founder-name">Made by Chris</div>
         <p class="founder-bio">Colorado. Sales manager by day, builder by night. Home automation nerd, charcuterie enthusiast, and the reason BatchSmith exists.</p>
@@ -74,7 +75,7 @@
   <footer class="site-footer">
     <div class="foot">
       <div class="foot-brand">
-        <a class="wordmark" href="/">Fixin Studio<span class="dot">.</span></a>
+        <a class="wordmark" href="/"><img class="nav-mark" src="/img/mark-64.png" alt="">Fixin Studio<span class="dot">.</span></a>
         <p class="foot-copy">&copy; 2026 Fixin Studio LLC &mdash; Colorado</p>
       </div>
       <div class="foot-cols">
