@@ -12,6 +12,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css?v=2">
+  <style>
+    .faq { margin: 1.25rem 0 1.5rem; border-top: 1px solid var(--line); }
+    .faq-item { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+    .faq-q { font-weight: 600; color: var(--ink); margin: 0 0 0.4rem; }
+    .faq-a { margin: 0; color: var(--ink); }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -28,22 +34,34 @@
     <p class="studio-label"><a href="/batchsmith/">BatchSmith</a> &rsaquo; Support</p>
 
     <h1>Support<span class="dot">.</span></h1>
-    <p class="lead">Have a question, hit a snag, or want to suggest a feature? We&rsquo;re a small studio and we read every message &mdash; get in touch and we&rsquo;ll help.</p>
+    <p class="lead">Have a question, hit a snag, or want to suggest a feature? We&rsquo;re a small studio and we read every message. Get in touch and we&rsquo;ll help.</p>
     <hr class="rule">
 
     <div class="notify-block">
       <h2>Get in touch</h2>
-      <p>Email us and we&rsquo;ll get back to you as soon as we can. Include your device and iOS version if you&rsquo;re reporting a problem &mdash; it helps us sort it out faster.</p>
+      <p>Email us and we&rsquo;ll get back to you as soon as we can. If you&rsquo;re reporting a problem, include your device and iOS version so we can sort it out faster.</p>
       <a class="btn" href="mailto:hello@fixinstudio.com?subject=BatchSmith%20Support">Email hello@fixinstudio.com &rarr;</a>
     </div>
 
     <h2>Common questions</h2>
-    <ul class="feature-list">
-      <li><strong>Are my recipes and batches safe?</strong> BatchSmith stores your data on your device. See the <a href="/batchsmith/privacy/">Privacy Policy</a> for details on what is and isn&rsquo;t collected.</li>
-      <li><strong>Is BatchSmith a substitute for food-safety guidance?</strong> No. It&rsquo;s a calculator and notebook, not professional advice. Please read the <a href="/batchsmith/safety/">Food Safety Notice</a> before you cure.</li>
-      <li><strong>The cure amounts look off &mdash; what should I do?</strong> Always weigh curing salt on a gram scale and verify against your cure manufacturer&rsquo;s instructions and USDA/FSIS guidance. If you think a calculation is wrong, email us with the details.</li>
-      <li><strong>Can I request a feature?</strong> Yes &mdash; we&rsquo;d love to hear it. Send your idea to the email above.</li>
-    </ul>
+    <div class="faq">
+      <div class="faq-item">
+        <p class="faq-q">Are my recipes and batches safe?</p>
+        <p class="faq-a">BatchSmith stores your data on your device. See the <a href="/batchsmith/privacy/">Privacy Policy</a> for details on what is and isn&rsquo;t collected.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Is BatchSmith a substitute for food-safety guidance?</p>
+        <p class="faq-a">No. It&rsquo;s a calculator and notebook, not professional advice. Please read the <a href="/batchsmith/safety/">Food Safety Notice</a> before you cure.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">The cure amounts look off. What should I do?</p>
+        <p class="faq-a">Always weigh curing salt on a gram scale and verify against your cure manufacturer&rsquo;s instructions and USDA/FSIS guidance. If you think a calculation is wrong, email us with the details.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Can I request a feature?</p>
+        <p class="faq-a">Yes, we&rsquo;d love to hear it. Send your idea to the email above.</p>
+      </div>
+    </div>
 
     <p class="safety-note">See also: <a href="/batchsmith/safety/">Food Safety Notice</a> &middot; <a href="/batchsmith/privacy/">Privacy Policy</a>.</p>
   </main>
